@@ -1,0 +1,82 @@
+#nav {
+    background-color: #006b3a;
+}
+
+#nav2 {
+    background-color: #006b3a;
+}
+
+#tag {
+    font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+#tag2 {
+    font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+/* #notesbtn {
+    margin-left: 5%;
+} */
+
+#articles {
+    margin-left: 5%;
+}
+
+#scrape-btn {
+    margin-left: 35%;
+}
+
+/* .view-summary {
+    margin-top: 5%;
+} */
+
+h3 {
+    color: #006b3a;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.save-btn {
+    margin-top: 1%;
+}
+
+#logo {
+    font-family: 'Abril Fatface', cursive;
+}
+
+#logo2 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.nav-link {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+}
+
+#buttons {
+    margin-top: 5%;
+    font-family: 'Times New Roman'
+}
+
+#buttons2 {
+    margin-top: 5%;
+    font-family: 'Times New Roman'
+}
+
+.nav-link:hover {
+    color: lightgrey;
+    opacity: 0.7;
+}
+
+#link {
+    color: black;
+}
+
+#link2 {
+    color: black;
+}
+
+#scrape-btn {
+    font-family: 'Times New Roman';
+}
