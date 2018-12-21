@@ -5,11 +5,10 @@ var cheerio = require("cheerio");
 
 module.exports = function (app) {
 
-    // app.get("/", function(req, res) {
-    //     res.render("home", {
-    //         title: "Peeled Onions"
-    //     });
-    // });
+    app.get("/", function(req, res) {
+        res.redirect("/articles/")
+    });
+    
     //articles created in the database
     app.get("/scrape", function(req,res) {
         axios.get("https://www.theonion.com/").then(function (response) {
