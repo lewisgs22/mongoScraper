@@ -61,12 +61,6 @@ $(function() {
         var title = $(titleId).val().trim();
         var body = $(bodyId).val().trim();
 
-        console.log("id:" + id);
-        console.log("titleId" + titleId);
-        console.log("bodyId" + bodyId);
-        console.log("title" + title);
-        console.log("body" + body);
-
         $.ajax({
             url: "/articles/notes/" + id,
             method: "POST",
